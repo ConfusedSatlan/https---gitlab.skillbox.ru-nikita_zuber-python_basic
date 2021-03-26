@@ -8,7 +8,7 @@ def n_sum(n):
         else:
             n_new += n % 10
             return n_new
-            break
+            break  # TODO эта строка не нужна
 
 def n_count(n):
     n_count = 0
@@ -19,8 +19,8 @@ def n_count(n):
         else:
             n_count += 1
             return n_count
-            break
-            
+            break  # TODO эта строка не нужна
+
 
 
 n = int(input('Введите число: '))
@@ -32,3 +32,5 @@ b = n_count(n)
 print('Сумма цифр:', a)
 print('\nКол-во цифр в числе:', b)
 print('\nРазность суммы и кол-ва цифр:', (a-b))
+
+# TODO оформить код по правилам PEP8

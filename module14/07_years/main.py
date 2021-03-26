@@ -3,6 +3,7 @@ def func(year_one, year_two):
     n_new = 0
     n_count = 0
     n_max = 0
+    # TODO некоторые из переменных выше не нужны
 
     for i in range(year_one, year_two+1, 1):
         n = i
@@ -29,3 +30,5 @@ year_one = int(input('Введите первый год: '))
 year_two = int(input('Введите второй год: '))
 
 func(year_one, year_two)
+
+# TODO оформить код по правилам PEP8

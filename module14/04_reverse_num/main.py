@@ -34,3 +34,5 @@ n_two = float(input('Введите второе число: '))
 print('Первое число наоборот:', res(n_one))
 print('\nВторое число наоборот:', res(n_two))
 print('\nСумма:', (res(n_one)+res(n_two)))
+
+# TODO оформить код по правилам PEP8
