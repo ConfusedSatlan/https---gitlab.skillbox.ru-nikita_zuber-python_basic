@@ -16,7 +16,7 @@ def func(year_one, year_two):
                 if n_max == n_new % 10:
                     n_count += 1
                 n_new //= 10
-            
+
             if n_count == 3:
                 print(i, '\n')
                 break
@@ -25,10 +25,9 @@ def func(year_one, year_two):
 
             if int(n) == 0:
                 break
-            
+
+
 year_one = int(input('Введите первый год: '))
 year_two = int(input('Введите второй год: '))
 
 func(year_one, year_two)
-
-# TODO оформить код по правилам PEP8
