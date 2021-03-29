@@ -1,8 +1,5 @@
 def func(year_one, year_two):
-    n = 0
-    n_new = 0
     n_count = 0
-    n_max = 0
     # TODO некоторые из переменных выше не нужны
 
     for i in range(year_one, year_two+1, 1):
