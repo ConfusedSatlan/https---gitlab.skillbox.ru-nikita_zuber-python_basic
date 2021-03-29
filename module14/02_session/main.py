@@ -1,5 +1,3 @@
-# TODO оформить код по правилам PEP8
-
 print("Введите первую точку")
 x1 = float(input('X: '))
 y1 = float(input('Y: '))
@@ -14,9 +12,11 @@ y_diff = y1 - y2
 if x_diff == 0:
     print('y =', abs(y_diff))
 elif y_diff == 0:
-    print('y =', abs(x_diff))
+    print('x =', abs(x_diff))
 else:
     k = y_diff / x_diff
     b = y2 - k * x2
     print("Уравнение прямой, проходящей через эти точки:")
     print("y = ", k, " * x + ", b)
+
+# зачёт! 🚀

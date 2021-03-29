@@ -1,6 +1,9 @@
 def func(year_one, year_two):
     n_count = 0
+<<<<<<< HEAD
     # TODO некоторые из переменных выше не нужны
+=======
+>>>>>>> e917d810509dad9c689457c8c620c48572424f9e
 
     for i in range(year_one, year_two+1, 1):
         n = i
@@ -28,3 +31,5 @@ year_one = int(input('Введите первый год: '))
 year_two = int(input('Введите второй год: '))
 
 func(year_one, year_two)
+
+# зачёт! 🚀
