@@ -15,3 +15,5 @@ for i in range(0, len(list_container), 1):
             list_container[j] = temp
 
 print('\nОтсортированный список: ', list_container)
+
+# зачёт! 🚀

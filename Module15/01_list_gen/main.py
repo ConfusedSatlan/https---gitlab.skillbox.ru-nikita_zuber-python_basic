@@ -9,3 +9,5 @@ while count < num:
     count += 1
 
 print(new_list)
+
+# зачёт! 🚀

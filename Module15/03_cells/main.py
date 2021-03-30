@@ -13,3 +13,5 @@ print('\nНеподходящие значения: ', end='')
 for i in range(0, n, 1):
     if new_list[i] < i:
         print(new_list[i], end=' ')
+
+# зачёт! 🚀
