@@ -16,7 +16,7 @@ while text != 'end':
             flag = True
             break
     
-    if flag != True:  
+    if flag is not True:
         print('Ошибка! Такого фильма нету!')
 
     flag = False
