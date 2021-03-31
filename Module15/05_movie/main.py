@@ -6,10 +6,15 @@ text = input('Введите название фильма: ')
 flag = False
 
 while text != 'end':
-    for i in range(0, len(films), 1):
+    for i in range(len(films)):
         if films[i] == text and text not in new_film_list:
             new_film_list.append(films[i])
             flag = True
+            break
+        elif text in new_film_list:
+            print('Этот фильм уже есть в вашем списке!')
+            flag = True
+            break
     
     if flag != True:  
         print('Ошибка! Такого фильма нету!')
