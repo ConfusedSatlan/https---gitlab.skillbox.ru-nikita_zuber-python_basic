@@ -26,4 +26,4 @@ print('\nВаш список любымих фильмов: ', end='')
 for i in range(0, len(new_film_list), 1):
     print(new_film_list[i], end=', ')
 
-
+# зачёт! 🚀
